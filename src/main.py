@@ -3,7 +3,7 @@ import asyncio
 import pyautogui
 from winrt.windows.media.control import GlobalSystemMediaTransportControlsSessionManager
 from pynput import keyboard
-from settings import bind
+from settings.settings import bind
 app_page = None
 handle_click_ptr = None
 
